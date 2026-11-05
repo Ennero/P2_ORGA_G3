@@ -1,68 +1,37 @@
-<div align="center">
+# Unidad aritmética y lógica simulada en Proteus
 
-# ⏱️ Digital Clock & Hardware Timing Systems (ORGA)
+Circuitos de operaciones digitales organizados en comparador, multiplicación, potencias y unidad lógica, con proyectos de simulación y tablas de verdad.
 
-**Implementación de sistemas de temporización digital, cronómetros de precisión y registros lógicos con microcontroladores.**
+## Requisitos
 
-[![Language](https://img.shields.io/badge/Language-Stata,%20C++-blue?style=for-the-badge)](https://github.com/Ennero/P2_ORGA_G3)
-[![Course](https://img.shields.io/badge/Course-Organización%20Computacional-003366?style=for-the-badge)](https://ingenieria.usac.edu.gt/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+Proteus con las bibliotecas de los componentes del diseño. Abrir primero P2_ORGA_G3.pdsprj y luego los subcircuitos para estudiar cada operación.
 
-</div>
+## Ejecución
 
----
+Los comandos parten de la raíz del repositorio, salvo donde se indica otra terminal.
 
-
-## 📌 Descripción General
-
-Este repositorio contiene la implementación y entrega de **⏱️ Digital Clock & Hardware Timing Systems (ORGA)**, desarrollado en el curso de **Organización Computacional** en la Universidad de San Carlos de Guatemala.
-
-- **Objetivo:** Implementación de sistemas de temporización digital, cronómetros de precisión y registros lógicos con microcontroladores.
-- **Stack Principal:** `Stata, C++`.
-- **Área:** Ciencias de la Computación, Algoritmos y Desarrollo de Software.
-
----
-
-## 🚀 Características y Componentes
-
-- Implementación modular y buenas prácticas de codificación.
-- Manejo estructurado de datos, control de flujo y validaciones.
-- Documentación y scripts de soporte para compilación o ejecución.
-
----
-
-## 📦 Estructura del Proyecto
-
-```
-P2_ORGA_G3/
-├── src/ o archivos de código fuente
-├── docs/ (si aplica)
-├── .gitignore
-├── LICENSE
-└── README.md
+```bash
+# Abrir con Proteus:
+# P2_ORGA_G3.pdsprj
+# comparador/comparador1.pdsprj
+# multiplicacion/multiplicacion1.pdsprj
+# unidadLogica/logico.pdsprj
 ```
 
----
+## Recorrido de demostración
 
-## ⚙️ Requisitos y Ejecución
+Para cada operación, variar las entradas y comparar el resultado con las tablas de verdad de potencia/. Los diseños de impresiones/ corresponden a variantes del circuito, no a módulos de software.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Ennero/P2_ORGA_G3.git
-   cd P2_ORGA_G3
-   ```
-2. Ejecutar según el entorno (`Stata, C++`):
-   - Consultar los scripts o archivos principales del proyecto para parámetros específicos.
+## Organización
 
----
+Carpetas de la entrega: [`comparador/`](comparador/), [`impresiones/`](impresiones/), [`multiplicacion/`](multiplicacion/), [`potencia/`](potencia/), [`unidadLogica/`](unidadLogica/).
 
-## 📄 Licencia
+## Alcance y límites
 
-Este proyecto está bajo la Licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+No es un reloj digital. Los respaldos y archivos de sesión de Proteus no sustituyen al proyecto principal. No se atribuye validación física a la simulación.
 
----
+## Contexto y licencia
 
-## 👨‍💻 Autor
+Trabajo académico o de aprendizaje conservado en el portafolio de [Enner Mendizabal](https://github.com/Ennero). Los créditos de los trabajos en grupo se conservan en sus entregas y manuales.
 
-- **Enner Mendizabal** - [@Ennero](https://github.com/Ennero)  
-- *Facultad de Ingeniería, Universidad de San Carlos de Guatemala.*
+Consultar [LICENSE](LICENSE) para la licencia de la raíz. Las dependencias y los componentes con avisos o licencias propios conservan sus condiciones.
